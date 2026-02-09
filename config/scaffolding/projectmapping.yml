@@ -1,0 +1,9 @@
+version: "1.0"
+projectName: EDI850UCDemoProject
+runtimes:
+- runtimeAlias: onprem_baseimageERT
+  assets:
+  - name: fld_111470798_stage00.projects.fl9897503b0d9f57b4f09b09.integrations:ProcessEDI850_v1
+    type: flow
+    stepId: /0/8
+    reference: fld_111470798_stage00.projects.fl9897503b0d9f57b4f09b09.WmPackageServiceProvider.bizservics:ProcessPurchaseOrder_v1
